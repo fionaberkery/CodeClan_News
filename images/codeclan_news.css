@@ -1,0 +1,54 @@
+body > header{
+    background-color: blueviolet;
+    color: white;
+}
+
+body > header > nav{
+    position: relative;
+    left : 80%;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow:hidden;
+    width : 50%;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav > ul > li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px;
+}
+
+main > section {
+    float : right 50%
+}
+
+main > div {
+    float : left
+}
+
+
+/* body > main > section{
+    float: right;
+} */
+/* aside {
+    width: 50%;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    float : right;
+}
+aside > section {
+    margin: .5rem;
+    width : 20%;
+} */
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
